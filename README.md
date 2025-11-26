@@ -24,22 +24,36 @@ Deployment scripts using Foundry Scripts
 CCIP-Rebase-Token/
 │
 ├── script/
+
 │   ├── BridgeToken.s.sol        # Sends token across chains using CCIP
+
 │   ├── ConfigurePool.s.sol      # Sets up rebase pool / CCIP configuration
+
 │   └── Deployer.s.sol           # Deploys all contracts with correct wiring
+
 │
 ├── src/
+
 │   ├── interfaces/
+
 │   │   └── IRebaseToken.sol     # Interface for rebase token
+
 │   │
 │   ├── RebaseToken.sol          # Rebasing ERC20 token
+
 │   ├── RebaseTokenPool.sol      # CCIP TokenPool for cross-chain transfers
+
 │   └── Vault.sol                # Handles supply + accounting logic
+
 │
 ├── test/
+
 │   ├── CrossChain.t.sol         # Cross-chain messaging tests
+
 │   └── RebaseToken.t.sol        # Unit tests for local rebase logic
+
 │
+
 └── README.md
 🧱 Core Contracts
 1️⃣ RebaseToken.sol
