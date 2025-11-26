@@ -1,4 +1,3 @@
-Ccip Rebase Token Readme
 🚀 CCIP Rebase Token
 
 A fully cross-chain Rebase Token System built using OpenZeppelin, Chainlink CCIP, and a custom RebaseTokenPool. This project demonstrates how to build, manage, and transfer a rebasing token across chains using Chainlink CCIP (Cross-Chain Interoperability Protocol).
@@ -165,12 +164,6 @@ forge script script/Deployer.s.sol --rpc-url <RPC> --broadcast
 📡 Environment Variables
 
 Create a .env file:
-
-PRIVATE_KEY=
-SOURCE_CHAIN_RPC=
-DEST_CHAIN_RPC=
-CCIP_ROUTER=
-TOKEN_ADMIN=
 🧭 Future Improvements
 
 Add rebase history events
